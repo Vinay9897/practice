@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+root {
+    font-size: 10px;
+}
+
+.header {
+    margin: 1rem;
+    border: 2px solid black;
+    height: 10vh;
+    width: 100%;
+}
+
+.nav-items {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+:after.nav-items {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.nav-items .imgbox {
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.nav-items .item {
+    display: right;
+}
+
+.imgbox {
+    box-sizing: border-box;
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
