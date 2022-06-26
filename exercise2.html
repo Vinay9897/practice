@@ -6,35 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        footer {
+            display: flex;
+        }
+
+        .footer-btn {
+            margin-left: auto;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        header {
+            display: flex;
+        }
+
+        header .name {
+            margin-left: 10px;
+        }
+
+        header .name {
+            display: flex;
+        }
+
+        header .name h4 {
+            margin-left: 1px;
+        }
+
+        .btn {
+            display: flex;
+            margin-left: auto;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 20% auto;
+            border: 2px solid black;
+            box-shadow: 2px 5px 2px 2px 0.5;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture">
-        <div class="name">
-            <h3>Quincy Larson</h3>
-            <h4>@ossia</h4>
-        </div>
-        <div class="btn">
-            <button>Follow</button>
-        </div>
-    </header>
-    <div>
-        <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work
-            smart, you still have to work hard.</p>
-        <span class="date">1:32 PM - 12 Jan 2018</span>
-        <hr>
-    </div>
-    <footer>
+    <div class="container">
+
+
+        <header>
+            <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg"
+                alt="Quincy Larson's profile picture">
+            <div class="name">
+                <h3>Quincy Larson</h3>
+                <h4>@ossia</h4>
+            </div>
+            <div class="btn">
+                <button>Follow</button>
+            </div>
+        </header>
         <div>
-            <div><strong>107</strong> Retweets</div>
-            <div><strong>431</strong> Likes</div>
+            <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you
+                work
+                smart, you still have to work hard.</p>
+            <span class="date">1:32 PM - 12 Jan 2018</span>
+            <hr>
         </div>
-        <div class="footer-btn"><button>Share</button></div>
-        <div class="footer-btn"><button>Comment</button></div>
-        <div class="footer-btn"><button>Likes</button>
-        </div>
-    </footer>
+        <footer>
+            <div>
+                <div><strong>107</strong> Retweets</div>
+                <div><strong>431</strong> Likes</div>
+            </div>
+            <div class="footer-btn"><button>Share</button></div>
+            <div class="footer-btn"><button>Comment</button></div>
+            <div class="footer-btn"><button>Likes</button>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
