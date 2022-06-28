@@ -33,6 +33,11 @@ img {
     margin: 1px 20%;
 }
 
+#tribute-info h3 {
+    text-align: center;
+
+}
+
 #tribute-info ul li {
     text-align: left;
 }
