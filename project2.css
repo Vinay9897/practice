@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(35deg, #ffcccc, #ccffff);
+    /* justify-content:center; */
+    /* align-items:center; */
+    /* align-self:center; */
+}
+
+#title {
+    text-align: center;
+    font-size: 23px;
+}
+
+#description {
+    text-align: center;
+}
+
+#form-div {
+    padding: 5%;
+    margin-left: 16%;
+    width: 60%;
+
+    background-color: darkblue;
+    color: white;
+
+}
+
+label {
+    display: block;
+    padding: 10px 0px 0px 0px;
+}
+
+input {
+    width: 100%;
+}
+
+#dropdown {
+    width: 100%;
+}
+
+input[type=radio] {
+    display: inline-block;
+    width: 10%;
+}
+
+input[type=checkbox] {
+    display: inline-block;
+    width: 10%;
+}
+
+textarea {
+    width: 100%;
+}
+
+#submit {
+    margin-top: 3rem;
+    padding: 2px 0px;
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: green;
+    text-align: center;
+}
